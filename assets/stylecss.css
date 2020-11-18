@@ -1,0 +1,143 @@
+
+/*General*/
+
+body{
+	font-family: 'Roboto Mono', monospace;
+	margin: 0;
+	padding:0;
+}
+
+
+
+/*Banner*/
+
+.banner{
+
+	background-color: #FE7777;
+	background-image: url('fondo.gif');
+	background-size: 55%;
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-attachment: scroll;
+
+	padding:9vh 2vh 7vw 3vw;
+	text-align: justify;
+
+
+}
+
+.banner h1{     
+                    /*Title*/
+	color: white;
+	font-size: 45px;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 2vw;
+	font-weight: bold;
+
+}
+
+.banner p {     
+	box-sizing: border-box;
+	color:#5F5E5E;
+	font-weight: 24px;
+	
+}
+
+button {                           /*Apply now button*/
+	background-color: #fd1015;
+	color: white;
+	box-sizing: border-box;
+	padding: 16px 45px;
+	margin-top: 50px;
+	border-radius: 4px;
+	text-decoration: none;
+	transition: .3s;
+	font-size: 20px;
+	font-weight: bold;
+	border: none;
+	position: relative;
+	left: 125px;
+	box-shadow: 0 0 16px rgba(0, 0, 0, 0.6);
+}
+
+
+/*Center*/
+
+.Center{
+	width: 860px;
+	margin: 60px auto;
+
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+.card{
+	background: white;
+	box-shadow:  0 0 16px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	padding: 24px;
+	margin: 0 20px;
+
+}
+
+.card img{
+	width: 200px;
+	height: 200px;
+}
+
+
+.card a{
+	text-decoration: none;
+}
+.card h3{
+	color: black;
+}
+.card p{
+	color: gray;
+}
+
+
+
+
+/*Footer*/
+
+footer {
+	background: #FE7777;
+	color: white;
+	box-sizing: border-box;
+	padding:1vh;
+	position: 1vw;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: right;
+ 	height: 60px;
+}
+
+footer a{
+	   text-decoration: none;
+	   color: #fd1015;
+
+}
+
+footer p{
+	margin: 0;
+	padding: 0;
+}
+
+#contact{
+	display: flex;
+	flex-direction: row;
+	align-items: right;
+	justify-content: space-between;
+	width: 15%;
+	margin: auto;
+	
+   }
